@@ -1,10 +1,14 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import { Button } from "@/components/Button";
+import { Button as MuiButton } from "@mui/material";
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
+        <Button variant="dashed" color="primary">hello customized MUI button</Button>
+        <MuiButton variant="dashed" color="secondary">hello MUI button</MuiButton>
         <p>
           Get started by editing&nbsp;
           <code className={styles.code}>src/app/page.tsx</code>
