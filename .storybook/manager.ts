@@ -34,6 +34,6 @@ addons.setConfig({
     inputBg: '#f4f4f4',
     inputBorder: '#CCC',
     inputTextColor: 'black',
-    inputBorderRadius: 3,
+    inputBorderRadius: 0,
   }),
 });
